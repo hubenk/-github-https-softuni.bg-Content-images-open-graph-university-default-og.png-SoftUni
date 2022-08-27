@@ -2,6 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.title("Simple calculator")
+root.iconbitmap('C:\\Users\\acer\\Desktop\\tkinter\\demo\\calc.ico')
 
 entry = Entry(root, width=30, borderwidth=2, bg="#D3D3D3", justify=RIGHT)
 entry.grid(row=0, column=0, columnspan=3, padx=10, pady=10)
