@@ -3,7 +3,7 @@ chairs_left = 0
 no_print = True
 for room in range(1, rooms + 1):
     chairs_visitors = input().split()
-    chairs = int(len(chairs_visitors[0]))
+    chairs = len(chairs_visitors[0])
     visitors = int(chairs_visitors[1])
     if chairs < visitors:
         chairs_left -= (visitors - chairs)
